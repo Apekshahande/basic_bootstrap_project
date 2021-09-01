@@ -1,0 +1,51 @@
+body{
+    background:url("background.jpg") no-repeat center center fixed ;
+    /*  no-repeat it will help us to not repet our img */
+    /* top and right center  */
+    -webkit-background-size:cover;
+    background-size:cover;
+    
+    /* for covering the page */
+    font-family: 'Lobster', cursive;
+    font-family: 'Sevillana', cursive;
+    /* google font tacken by https://fonts.google.com/ */
+}
+
+.rowHeight{
+    height: 300px;
+    /* it will come in center. */
+
+}
+
+h1{
+    color:#000;
+    font-style: 2.8em;
+}
+
+.bg{
+    background-color: #c1c1c1;
+    opacity: 0.8;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:white;
+    text-align: center
+
+    
+    
+}
+
+p{
+    font-size: 19px;
+    color: black;
+    padding:10;
+}
