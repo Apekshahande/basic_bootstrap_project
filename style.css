@@ -1,0 +1,36 @@
+body{
+    background : url(./new-yark.jpg) no-repeat center center fixed ;
+    /* background-color: #464646; */
+    background-size: cover;
+   
+}
+
+#img_logo{
+    max-width: 100px;
+    max-height: 100px;
+    margin:0 auto;
+}
+/* id is created by #  it will be for taking log to senter.*/
+
+#login-modal .modal-dialog{
+    width: 350px;
+
+}
+/* it's for size of the box . */
+
+
+
+#login-modal  input[type=text], input[type=password]{
+    margin-top: 10px;
+}
+/*  it will give the space between the email and password input box */
+
+
+.place{
+    margin-right: 100px;
+}
+
+.place1{
+    margin-left: 170px;
+    margin-top: -46.3px;
+}

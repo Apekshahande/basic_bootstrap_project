@@ -1,0 +1,104 @@
+ <!-- This is boiler plate for bootstrap -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="./style.css" class="css">
+    <title>Document</title>
+ </head>
+ <body>
+    <div class="container">
+        <!-- div.container + enter for creating the div class  -->
+        <!-- div.row + enter is for creating row container inside the div -->
+        <div class="row">
+            <!-- div.col-md-12 + enter is for cloumn class it will mediem size and whole screen 12 -->
+            <div class="col-md-12">
+                <!-- h1.text-center is for taking h1 tag to be in center  -->
+                <h1 class="text-center">
+                   <b> A Project based approach to learn Modal</b>
+                </h1>
+                <!-- p.text-center will take the text in center -->
+                <p class="text-center">
+                <a href="#" class = "btn btn-primary btn-lg" data-toggle= "modal" role ="button" data-target = "#login-modal" > 
+                    <!-- data-target = #login-model  # is for id  -->
+                    <!-- data-toggle = "model" it's suggesting us it's not normal button it's model button. -->
+                    Login Here
+                </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id = "login-modal">
+        <!-- This classes will pop up the logo at starting. -->
+
+       
+        <!-- id execatialy same which you mention. -->
+        <!-- div.modal-dialog is for dialog contain. -->
+        <div class="modal-dialog">
+            <!-- modal-dialog class will take the logo center .  -->
+
+            <div class="modal-content">
+                <!-- without modal-dialog class it will cover the page with white color navbar. -->
+                <!-- modal-content class will increase the size of the logo -->
+
+                <div class="modal-header ">
+                    <!-- without modal-content and modal-dialog class it will show horisentail line. -->
+                    <!-- modal-header class is for creating card for log.  -->
+                    <img id ="img_logo"  class="img-thumbnail" src="./it.png" alt="">
+                    <!-- img-thumbnail class will create a border to the logo -->
+                </div>
+                
+
+
+                <div id =" div-forms" >
+                    <form>
+                        <div class="modal-body">
+                            <div>
+                                <span>Type  your Email and Password here :</span>
+                                <!-- if you want to do some design in it then use span. -->
+                            </div>
+                            <input class="form-control" placeholder ="Email" type="text" required>
+                            <input class="form-control" placeholder ="Password" type="Password" required>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Remember me 
+
+                                </label>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="row  ">
+                                <div class="col-sm-6 place">
+                                    <button type="submit" class = "btn btn-primary btn-lg btn-block">LogIn </button>
+                                </div>
+                                <div class="col-sm-6 place1">
+                                    <button type="submit" class = "btn btn-primary btn-lg btn-block">Sign  Up </button>
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+ 
+     
+ </body>
+  
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+ </html>
+ 
+ <!-- this css file somebody stored in there server then we can use. that's what the CDN is -->
